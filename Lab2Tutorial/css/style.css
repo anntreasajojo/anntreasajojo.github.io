@@ -1,0 +1,77 @@
+#gameTitle{
+    font-size: 1.2em;
+    color: rgb(69, 51, 55);
+    font-weight: bold;
+    background-color: rgba(180, 172, 172, 0.5);
+    text-align: center;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+#gameInstructions{
+    font-size: 1em;
+    color: rgb(69, 51, 55);
+    background-color: rgba(78, 75, 75, 0.5);
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+p {
+    margin-left: 20px;
+    line-height: 1.5;
+  }
+  
+
+#allGuesses{
+    margin-left: 20px;
+
+}
+
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+#gameContent{
+    text-align: center;
+    background-color: rgba(194, 131, 131, 0.5);
+    padding: 20px;
+    font-size: 1em;
+}
+
+#guessButton, #resetButton {
+    padding: 8px 12px;                 
+    font-size: 2.7em;        
+    margin-top: 15px;        
+    border-radius: 5px;                                 
+    cursor: pointer;   
+    background-color: brown; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;             
+}
+
+#guessButton:hover {
+    background-color: darkred;
+}
+
+#guessInput {
+    padding: 8px;                                      
+    border-radius: 5px;              
+    border: 1px solid gray;
+    width: 200px;          
+}
+
+h4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgba(152, 186, 224, 0.5);
+    font-size: large;
+    margin-left: 2%;
+    margin-right: 2%;
+
+}
+
+
+

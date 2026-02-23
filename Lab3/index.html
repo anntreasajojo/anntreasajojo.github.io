@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 3: Quiz</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+    <h1>CSS Quiz</h1>
+    1. What CSS property changes to font color?
+    <br>
+    <!-- <label><input type="radio" name="q1" value="font-color"> font-color</label>
+    <label><input type="radio" name="q1" value="text-color"> text-color</label>
+    <label><input type="radio" name="q1" value="color"> color</label>
+    <br> -->
+
+    <div id="q1ChoicesDiv"></div>
+    <div class="feedback_row">
+        <span id="q1_feedback"></span>
+        <img id="q1_feedback_icon" class="icon">
+    </div>
+
+
+
+    2. What is 5 + 3?
+    <br>
+    <input type="number" min="1" max="20" step="1" id="q2">
+    <br>
+    <div class="feedback_row">
+        <span id="q2_feedback"></span>
+        <img id="q2_feedback_icon" class="icon">
+    </div>
+
+    3. Which planet is known as the Red Planet?
+    <br>
+    <select id="q3">
+        <option value="Earth">Earth</option>
+        <option value="Mars">Mars</option>
+        <option value="Jupiter">Jupiter</option>
+        <option value="Venus">Venus</option>
+
+    </select>
+    <br>
+    <div class="feedback_row">
+        <span id="q3_feedback"></span>
+        <img id="q3_feedback_icon" class="icon">
+    </div>
+
+    4. What is 20 - 10?
+    <br>
+    <input type="text" id="q4">
+    <br>
+    <div class="feedback_row">
+        <span id="q4_feedback"></span>
+        <img id="q4_feedback_icon" class="icon">
+    </div>
+
+    5. Which animal is a mammal?
+    <br>
+    <label><input type="checkbox" id="q5a" value="Shark"> Shark</label>
+    <label><input type="checkbox" id="q5b" value="Frog"> Frog</label>
+    <label><input type="checkbox" id="q5c" value="Dolphin"> Dolphin</label>
+    <label><input type="checkbox" id="q5d" value="Lizard"> Lizard</label>
+    <br>
+    <div class="feedback_row">
+        <span id="q5_feedback"></span>
+        <img id="q5_feedback_icon" class="icon">
+    </div>
+
+    <button>Submit Quiz</button>
+    <div id="final_score"></div>
+    <div id="congrats_message"></div>
+    <div id="attempts_display"></div>
+
+</body>
+
+</html>

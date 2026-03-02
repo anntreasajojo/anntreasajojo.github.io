@@ -1,0 +1,9 @@
+/* Used Bootstrap  */
+body{
+    text-align: center;
+}
+
+#zipCodeMsg{
+    color: red;
+}
+
